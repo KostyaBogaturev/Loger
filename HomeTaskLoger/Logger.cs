@@ -29,11 +29,11 @@ namespace HomeTaskLoger
             return errorReason;
         }
 
-        public string Message(string warning, string message)
+        public string Message(string info, string message)
         {
-            string warningReason = $"{message} : warning {warning}";
-            list.Add(warningReason);
-            return warningReason;
+            string information = $"{message} : warning {info}";
+            list.Add(information);
+            return information;
         }
 
         public void SaveLogetList(string fileName)
