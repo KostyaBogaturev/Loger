@@ -31,14 +31,14 @@ namespace HomeTaskLoger
 
         public string Message(string info, string message)
         {
-            string information = $"{message} : warning {info}";
+            string information = $"{message} : message {info}";
             list.Add(information);
             return information;
         }
 
-        public void SaveLogetList(string fileName)
+        public void SaveLogetList()
         {
-            File.AppendAllLines(fileName, list);
+            File.AppendAllLines("output.txt", list);
         }
 
 

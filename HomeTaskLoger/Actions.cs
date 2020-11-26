@@ -18,7 +18,7 @@ namespace HomeTaskLoger
 
         public void ExeptionMessage()
         {
-            throw new Exception("Why we have to write \" I broke a toilet&)\"");
+            throw new Exception("Why we have to write \" I broke a toilet)\"?");
         }
     }
 }
